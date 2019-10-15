@@ -35,6 +35,32 @@
 
 
 
+/* PORTFOLIO SECTION */
+.portfolio-section{
+    padding: 90px 0;
+}
+
+.portfolio-section nav{
+    text-align: center;
+}
+
+.portfolio-cards-container{
+    flex-wrap: wrap;
+}
+
+.portfolio-section .portfolio-card{
+    width: 33%;
+}
+
+.portfolio-section .portfolio-card img{
+    width: 100%;
+}
+
+
+
+
+
+
 
 /* FOOTER */
 footer .lower{
