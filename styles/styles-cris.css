@@ -1,0 +1,26 @@
+/* FEATURES SECTION */
+.features-section{
+    background: #FAFBFC;
+}
+
+.features-section .main-image{
+    width: 510px;
+    margin: 0 auto;
+}
+
+.features-section>div{
+    padding-top: 90px;
+}
+
+.features-section>div img{
+    padding-bottom: 90px;
+}
+
+.features-section>div h2, .features-section>div h4 {
+    margin-bottom: 30px;
+}
+
+/* FEATURES CONTAINER */
+.features-container{
+
+}
