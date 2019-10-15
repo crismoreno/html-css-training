@@ -119,6 +119,11 @@ a:hover {
     background: #FAFBFC;
 }
 
+.paddings-90{
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
 
 /* @media (min-width: 1200px){ */
 
