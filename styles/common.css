@@ -110,6 +110,10 @@ a:hover {
     display: inline;
 }
 
+.coloured-background{
+    background: #FAFBFC;
+}
+
 
 /* @media (min-width: 1200px){ */
 

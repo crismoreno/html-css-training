@@ -1,8 +1,4 @@
 /* FEATURES SECTION */
-.features-section{
-    background: #FAFBFC;
-}
-
 .features-section .main-image{
     width: 510px;
     margin: 0 auto;
@@ -66,21 +62,29 @@
     width: 33%;
 }
 
-.pricing-testimonial-section .element {
-    width: 33%;
-}
-
-.pricing-testimonial-section .element .main-price-img{
+.pricing-testimonial-section .element .main-card-img{
     border-radius: 100%;
     width: 180px;
     margin: 0 auto;
 }
 
+.brands-carousel img{
+    height: 35px;
+    margin: 10px 20px;
+}
+
+
+/* CONTACT */
+.contact .side{
+    width: 50%;
+}
+
+
+
 
 
 /* FOOTER */
 footer .lower{
-    background: #FAFBFC;
     padding-top: 24px;
     padding-bottom: 24px;
 }
