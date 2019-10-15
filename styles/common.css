@@ -7,6 +7,13 @@
     src: url('../assets/fonts/Inter-Regular.woff');
 }
 
+/* @media (min-width: 1200px){ */
+    .container{
+        max-width: 1140px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+/* } */
 
 
 h1{
@@ -37,8 +44,9 @@ h6{
 
 }
 
-p{
-
+p, li{
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 12px;
 }
 
 label{
