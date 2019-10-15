@@ -40,12 +40,10 @@
 .burger-menu-container {
     padding: 0 20 0 20px;
 }
-.portfolio-card.d-flex.flex-column {
-    margin: auto;
-    padding: 20px 20px 20px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.portfolio-card img {
+  height: 230px;
+  padding: 10px;
 }
-.portfolio-cards-container.d-flex {
-    margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+.portfolio-card strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
