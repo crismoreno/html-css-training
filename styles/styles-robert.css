@@ -1,17 +1,22 @@
-body {
-    margin: 0px auto;
-    padding: 0px;
-    list-style: none;
-}
-
 header {
-    background-image: url("../assets/header/simple-codelines.svg");
-    height: 500px;
-    width: 100%;
+    color: hsla(0,0%,100%,.6);
+    /* background: url("../assets/header/simple-codelines.svg"); */
     background-size: cover;
+    background-position: center 10%;
+    /* height: 500px; */
+    width: 100%;
+    background: url(../assets/header/simple-codelines.svg),#2b3137;
+}
+header div.container{
+    height: 520px;
 }
 
-.headera {
+header div.container>div{
+    max-width: 439px;
+    margin: 0 auto;
+}
+
+header a {
     position: relative;
     text-decoration: none;
     text-align: center;
