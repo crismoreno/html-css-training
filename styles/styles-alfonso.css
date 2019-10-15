@@ -19,9 +19,24 @@
     color: white;
 }
 
-.topbar div {
+
+/* .topbar div{
     width: 35px;
     height: 5px;
     background-color: white;
     margin: 6px 0;
+} */
+
+.burger-menu-container div {
+    width: 22px;
+    height: 2px;
+    background-color: white;
+}
+
+.burger-menu-container a div:nth-child(2) {
+    margin: 5px 0;
+}
+
+.burger-menu-container {
+    padding: 0 0 0 10px;
 }
