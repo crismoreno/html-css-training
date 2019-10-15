@@ -6,6 +6,7 @@
     padding: 5px 80px;
     display: flex;
     justify-content: space-between;
+    word-spacing: 20px;
 }
 
 .topbar .logo-topbar{
@@ -15,4 +16,7 @@
 .topbar li{
     display:inline;
     color: white;
+}
+.topbar a{
+    color: seashell;
 }
