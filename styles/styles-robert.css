@@ -1,27 +1,46 @@
 header {
-    color: hsla(0,0%,100%,.6);
+    color: hsla(0, 0%, 100%, .6);
     /* background: url("../assets/header/simple-codelines.svg"); */
     background-size: cover;
     background-position: center 10%;
     /* height: 500px; */
     width: 100%;
-    background: url(../assets/header/simple-codelines.svg),#2b3137;
+    background: url(../assets/header/simple-codelines.svg), #2b3137;
 }
-header div.container{
+
+header div.container {
     height: 520px;
 }
 
-header div.container>div{
-    max-width: 439px;
+header div.container>div {
+    max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 header a {
     position: relative;
-    text-decoration: none;
     text-align: center;
     padding: 3px 10px;
-    border: #3393FF 5px solid;
-    border-radius: 20px;
-    background: rgba(21, 102, 194, 0.7);
+    border-radius: 0.3em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    text-shadow: 0 -1px 0 #1a009d;
+    padding: 0.9em 1.4em;
+}
+
+
+/* update button */
+
+header a:first-child {
+    margin-right: 8px;
+    background: rgba(3, 102, 214);
+    color: white;
+}
+
+header a:last-child {
+    margin-left: 8px;
+    background: #ffffff;
+    border: #0B6BD7 1px solid;
+    color: #0B6BD7;
 }
