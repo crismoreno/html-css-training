@@ -1,4 +1,4 @@
-.topbar{
+.topbar {
     background-color: #24292e;
     /* height: 25px;
     width: 100%; */
@@ -7,18 +7,19 @@
     word-spacing: 20px;
 }
 
-.topbar .logo-topbar{
+.topbar .logo-topbar {
     height: 50px;
 }
 
-.topbar ul{
+.topbar ul {
     margin: 1em 0;
 }
 
-.topbar a{
+.topbar a {
     color: white;
 }
-.topbar div{
+
+.topbar div {
     width: 35px;
     height: 5px;
     background-color: white;
