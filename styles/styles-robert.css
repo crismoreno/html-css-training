@@ -1,5 +1,6 @@
 .features-section {
     background: #FAFBFC;
+    margin: 20px;
 }
 
 .features-section .main-image {
@@ -33,6 +34,7 @@
 
 .features-container img {
     border-radius: 100%;
+    padding: 20px;
 }
 
 header {
