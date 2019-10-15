@@ -1,4 +1,4 @@
-.topbar{
+.topbar {
     background-color: #24292e;
     /* height: 25px;
     width: 100%; */
@@ -7,17 +7,19 @@
     word-spacing: 20px;
 }
 
-.topbar .logo-topbar{
+.topbar .logo-topbar {
     height: 50px;
 }
 
-.topbar ul{
+.topbar ul {
     margin: 1em 0;
 }
 
-.topbar a{
+.topbar a {
     color: white;
 }
+
+
 /* .topbar div{
     width: 35px;
     height: 5px;
@@ -25,16 +27,16 @@
     margin: 6px 0;
 } */
 
-.burger-menu-container div{
+.burger-menu-container div {
     width: 22px;
     height: 2px;
     background-color: white;
-    
 }
 
-.burger-menu-container a div:nth-child(2){
+.burger-menu-container a div:nth-child(2) {
     margin: 5px 0;
 }
-.burger-menu-container{
+
+.burger-menu-container {
     padding: 0 0 0 10px;
 }
