@@ -83,17 +83,29 @@
 
 
 
-/* FOOTER */
-footer .lower{
+/* UPPER FOOTER */
+footer .upper-footer li{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+footer .upper-footer ul{
+    flex-wrap: wrap;
+    height: 170px;
+}
+
+/* LOWER FOOTER */
+footer .lower-footer{
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-footer .lower span{
+footer .lowlower-footer span{
     margin-top: 9px;
 }
 
-footer .lower .rrss svg{
+footer .lower-footer .rrss svg{
     color: #959da5;
     margin-right: 16px!important;
 }
