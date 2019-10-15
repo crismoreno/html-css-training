@@ -38,8 +38,14 @@
 }
 
 .burger-menu-container {
-    padding: 0 0 0 10px;
+    padding: 0 20 0 20px;
 }
-.latest-updates span{
-    color: green;
+.portfolio-card.d-flex.flex-column {
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.portfolio-cards-container.d-flex {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
