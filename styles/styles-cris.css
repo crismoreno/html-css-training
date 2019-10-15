@@ -24,3 +24,19 @@
 .features-container{
 
 }
+
+
+footer .lower{
+    background: #FAFBFC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer .lower span{
+    margin-top: 9px;
+}
+
+footer .lower .rrss svg{
+    color: #959da5;
+    margin-right: 16px!important;
+}

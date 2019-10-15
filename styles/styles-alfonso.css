@@ -4,8 +4,6 @@
     width: 100%; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
-    display: flex;
-    justify-content: space-between;
     word-spacing: 20px;
 }
 
@@ -13,10 +11,10 @@
     height: 50px;
 }
 
-.topbar li{
-    display:inline;
-    color: white;
+.topbar ul{
+    margin: 1em 0;
 }
+
 .topbar a{
-    color: seashell;
+    color: white;
 }
