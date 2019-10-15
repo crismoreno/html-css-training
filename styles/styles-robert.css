@@ -1,0 +1,22 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    list-style: none;
+}
+
+header {
+    background-image: url("../assets/header/simple-codelines.svg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.headera {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 10px;
+    border: #3393FF 5px solid;
+    border-radius: 20px;
+    background: rgba(21, 102, 194, 0.7);
+}
