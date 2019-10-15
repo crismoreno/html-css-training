@@ -1,3 +1,40 @@
+.features-section {
+    background: #FAFBFC;
+}
+
+.features-section .main-image {
+    width: 510px;
+    margin: 0 auto;
+}
+
+.features-section>div {
+    padding-top: 90px;
+}
+
+.features-section .main-image {
+    padding-bottom: 90px;
+}
+
+.features-section>div h2,
+.features-section>div h4 {
+    margin-bottom: 30px;
+}
+
+
+/* FEATURES CONTAINER */
+
+.features-section .features-container {
+    flex-wrap: wrap;
+}
+
+.features-section .features-container div {
+    width: 50%;
+}
+
+.features-container img {
+    border-radius: 100%;
+}
+
 header {
     color: hsla(0, 0%, 100%, .6);
     /* background: url("../assets/header/simple-codelines.svg"); */
@@ -47,15 +84,4 @@ header a:last-child {
     background: #ffffff;
     border: #0B6BD7 1px solid;
     color: #0B6BD7;
-}
-
-.princing {
-    background: #FAFBFC;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    text-align: center;
-}
-
-.plan {
-    background-image: url(../assets/pricing/codacy-dark.png);
 }
