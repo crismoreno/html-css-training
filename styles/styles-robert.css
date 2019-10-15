@@ -48,3 +48,14 @@ header a:last-child {
     border: #0B6BD7 1px solid;
     color: #0B6BD7;
 }
+
+.princing {
+    background: #FAFBFC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.plan {
+    background-image: url(../assets/pricing/codacy-dark.png);
+}
