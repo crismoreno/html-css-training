@@ -57,8 +57,24 @@
 }
 
 
+/* PRICING & TESTIMONIAL */
+.pricing-testimonial-section{
+    background: #FAFBFC;
+}
 
+.pricing-testimonial-section .element{
+    width: 33%;
+}
 
+.pricing-testimonial-section .element {
+    width: 33%;
+}
+
+.pricing-testimonial-section .element .main-price-img{
+    border-radius: 100%;
+    width: 180px;
+    margin: 0 auto;
+}
 
 
 
