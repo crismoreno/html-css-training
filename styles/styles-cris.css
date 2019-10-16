@@ -13,15 +13,21 @@
     flex-wrap: wrap;
 }
 
-.features-section .features-container div{
+.features-section .features-container .feature{
     width: 50%;
 }
 
-.features-container img{
-    border-radius: 100%;
+.features-container .image-container{
     height: 100px;
 }
-.feature>div {
+
+.features-container .image-container img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+.feature .info-container {
     padding-left: 30px;
 }
 
