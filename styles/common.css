@@ -148,7 +148,6 @@ a:hover {
     color: white;
     padding: 10px;
     border-radius: 80px;
-    border-bottom-left-radius: 100px;
 }
 
 .whitebuttons {
@@ -158,5 +157,4 @@ a:hover {
     color: #0B6BD7;
     padding: 10px;
     border-radius: 80px;
-    border-bottom-left-radius: 100px;
 }
