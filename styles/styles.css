@@ -88,6 +88,7 @@ header a {
 
 .features-section .features-container .feature{
     width: 50%;
+    padding-left: 30px;
 }
 
 .features-container .image-container{
@@ -122,7 +123,7 @@ header a {
 
 
 .portfolio-section .portfolio-navbar{
-    margin: 30px 0;
+    margin: 0 0 30px 0;
 }
 
 .portfolio-section .portfolio-navbar ul li a{
@@ -172,14 +173,23 @@ header a {
 
 .pricing-testimonial-section .element{
     width: 33%;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 30px;
 }
+
+.pricing-testimonial-section .element:nth-child(2){
+    margin: 0 30px;
+}
+
 
 .pricing-testimonial-section .element .main-card-img{
     border-radius: 100%;
-    width: 180px;
+    width: 110px;
     margin: 0 auto;
 }
-.element, strong, span{
+
+.pricing-testimonial-section .element p, .pricing-testimonial-section .element strong, .pricing-testimonial-section .element span{
     text-align: center;
 }
 
