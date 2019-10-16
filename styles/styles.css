@@ -317,14 +317,16 @@ header a {
 /* UPPER FOOTER */
 
 footer .upper-footer li {
-    padding: 10px;
+    padding: 9px;
     width: 25%;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 footer .upper-footer ul {
     flex-wrap: wrap;
     height: 170px;
+    width: 78%;
 }
 
 
