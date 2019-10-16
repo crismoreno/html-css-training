@@ -298,6 +298,10 @@ header a {
     border-radius: 5px;
 }
 
+.contact .right-side div{
+    margin-bottom: 10px;
+}
+
 .contact .right-side form input[type="textarea"] {
     height: 100px;
     margin-bottom: 20px;
