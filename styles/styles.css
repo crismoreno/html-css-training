@@ -203,34 +203,37 @@ header a {
     margin: 5px 0;
 }
 
-.pricing-testimonial-section .element .element-info:first-of-type{
+.pricing-testimonial-section .element .element-info:first-of-type {
     margin-top: 30px;
 }
 
-.pricing-testimonial-section .element a{
+.pricing-testimonial-section .element a {
     width: 83px;
     margin: 10px auto 0 auto;
     border-radius: 5px;
 }
 
+
 /* NEWSLETTER SUBSCRIPTION */
-.newsletter-subscription{
+
+.newsletter-subscription {
     padding: 0 90px;
 }
 
-.newsletter-subscription-updates strong{
+.newsletter-subscription-updates strong {
     font-size: 35px;
 }
 
-.newsletter-subscription-updates span{
+.newsletter-subscription-updates span {
     font-size: 22px;
 }
 
-.newsletter-subscription form input[type="email"]{
+.newsletter-subscription form input[type="email"] {
     width: 150px;
     height: 30px;
     border-radius: 20px;
 }
+
 
 /* BRANDS CAROUSEL */
 
@@ -259,6 +262,21 @@ header a {
 
 .contact .left-side ul {
     padding-left: 15px;
+}
+
+.contact .right-side label {
+    display: block;
+    padding-bottom: 4px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 11px;
+}
+
+.contact .right-side input {
+    padding-bottom: 4px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 16px;
+    border: 1.5px solid grey;
+    width: 420px;
 }
 
 
