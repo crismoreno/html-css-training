@@ -3,7 +3,7 @@
     background-color: #24292e;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
-    word-spacing: 20px;
+    margin-right: 20px; 
 }
 
 .topbar .logo-topbar {
@@ -144,6 +144,10 @@ header a {
     width: 180px;
     margin: 0 auto;
 }
+.element, strong, span{
+    text-align: center;
+}
+
 
 
 /* BRANDS CAROUSEL */
