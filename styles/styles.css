@@ -4,7 +4,6 @@
     background-color: #24292e;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
-    word-spacing: 20px;
 }
 
 .topbar .logo-topbar {
@@ -17,6 +16,7 @@
 
 .topbar a {
     color: white;
+    margin-right: 10px;
 }
 
 .burger-menu-container div {
@@ -30,7 +30,7 @@
 }
 
 .burger-menu-container {
-    padding: 0 20 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 
@@ -93,6 +93,7 @@ header a {
 
 .features-section .features-container .feature {
     width: 50%;
+    padding-left: 30px;
 }
 
 .features-container .image-container {
@@ -125,7 +126,7 @@ header a {
 }
 
 .portfolio-section .portfolio-navbar {
-    margin: 30px 0;
+    margin: 0 0 30px 0;
 }
 
 .portfolio-section .portfolio-navbar ul li a {
@@ -172,12 +173,40 @@ header a {
 
 .pricing-testimonial-section .element {
     width: 33%;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pricing-testimonial-section .element:nth-child(2) {
+    margin: 0 30px;
 }
 
 .pricing-testimonial-section .element .main-card-img {
     border-radius: 100%;
-    width: 180px;
-    margin: 0 auto;
+    width: 110px;
+    margin: 0 auto 30px auto;
+}
+
+.pricing-testimonial-section .element p,
+.pricing-testimonial-section .element strong,
+.pricing-testimonial-section .element span {
+    text-align: center;
+}
+
+.pricing-testimonial-section .element .element-info img {
+    height: 20px;
+}
+
+.pricing-testimonial-section .element .element-info {
+    padding-left: 50px;
+    margin: 5px 0;
+}
+
+.pricing-testimonial-section .element a {
+    width: 83px;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
 }
 
 
