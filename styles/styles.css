@@ -1,0 +1,191 @@
+/* NAVBAR */
+.topbar {
+    background-color: #24292e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 80px;
+    word-spacing: 20px;
+}
+
+.topbar .logo-topbar {
+    height: 50px;
+}
+
+.topbar ul {
+    margin: 1em 0;
+}
+
+.topbar a {
+    color: white;
+}
+
+.burger-menu-container div {
+    width: 22px;
+    height: 2px;
+    background-color: white;
+}
+
+.burger-menu-container a div:nth-child(2) {
+    margin: 5px 0;
+}
+
+.burger-menu-container {
+    padding: 0 20 0 20px;
+}
+
+/* HEADER */
+
+header {
+    color: hsla(0, 0%, 100%, .6);
+    /* background: url("../assets/header/simple-codelines.svg"); */
+    background-size: cover;
+    background-position: center 10%;
+    /* height: 500px; */
+    width: 100%;
+    background: url(../assets/header/simple-codelines.svg), #2b3137;
+}
+
+header h1 {
+    color: white;
+}
+
+header div.container {
+    height: 520px;
+}
+
+header div.container>div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header a {
+    position: relative;
+    text-align: center;
+    margin: 5px 0 0;
+    border-radius: 0.3em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    padding: 1.0em 1.7em;
+    color: white;
+}
+
+
+
+/* FEATURES SECTION */
+.features-section .main-image{
+    width: 510px;
+    margin: 0 auto;
+}
+
+.features-section>div h2, .features-section>div h4 {
+    margin-bottom: 30px;
+}
+
+/* FEATURES CONTAINER */
+.features-section .features-container{
+    flex-wrap: wrap;
+}
+
+.features-section .features-container .feature{
+    width: 50%;
+}
+
+.features-container .image-container{
+    height: 100px;
+}
+
+.features-container .image-container img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+.feature .info-container {
+    padding-left: 30px;
+}
+
+.features-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* PORTFOLIO SECTION */
+.portfolio-section nav{
+    text-align: center;
+}
+
+.portfolio-cards-container{
+    flex-wrap: wrap;
+}
+
+.portfolio-section .portfolio-card{
+    width: 33%;
+}
+
+.portfolio-section .portfolio-card img{
+    width: 100%;
+}
+
+
+
+/* PRICING & TESTIMONIAL */
+.pricing-testimonial-section{
+    background: #FAFBFC;
+}
+
+.pricing-testimonial-section .element{
+    width: 33%;
+}
+
+.pricing-testimonial-section .element .main-card-img{
+    border-radius: 100%;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+/* BRANDS CAROUSEL */
+.brands-carousel{
+    padding: 90px 0;
+}
+.brands-carousel img{
+    height: 35px;
+    margin: 10px 20px;
+}
+
+
+/* CONTACT */
+.contact .side{
+    width: 50%;
+}
+
+
+
+/* UPPER FOOTER */
+footer .upper-footer li{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+footer .upper-footer ul{
+    flex-wrap: wrap;
+    height: 170px;
+}
+
+/* LOWER FOOTER */
+footer .lower-footer{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer .lowlower-footer span{
+    margin-top: 9px;
+}
+
+footer .lower-footer .rrss svg{
+    color: #959da5;
+    margin-right: 16px!important;
+}
