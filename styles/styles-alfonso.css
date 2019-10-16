@@ -47,12 +47,13 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 .newsletter-subscription-updates{
     width: 160px;
 }
-
-.newsletter-subscription form{
-    float: right;
+.element, strong, span{
+    text-align: center;
+}
+.main-card-img{
+    
 }

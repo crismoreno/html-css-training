@@ -8,8 +8,7 @@
     src: url('../assets/fonts/Inter-Regular.woff');
 }
 
-
-*{
+* {
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
@@ -31,7 +30,7 @@ h2 {
 
 h3 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     max-width: 510px;
     margin: 0 auto;
@@ -39,16 +38,16 @@ h3 {
 
 h4 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     max-width: 510px;
     margin: 0 auto;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 h5 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     max-width: 510px;
     margin: 0 auto;
@@ -60,7 +59,10 @@ h5 {
 
 } */
 
-p,
+p {
+    font-size: 15px;
+}
+
 li,
 span {
     font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -115,14 +117,15 @@ a:hover {
     display: inline;
 }
 
-.coloured-background{
+.coloured-background {
     background: #FAFBFC;
 }
 
-.paddings-90{
+.paddings-90 {
     padding-top: 90px !important;
     padding-bottom: 90px !important;
 }
+
 
 
 /* @media (min-width: 1200px){ */
@@ -135,3 +138,20 @@ a:hover {
 
 
 /* } */
+
+
+.bluebuttons{
+    margin-right: 8px;
+    background: rgba(3, 102, 214);
+    color: white;
+    padding: 10px;
+}
+
+
+.whitebuttons { 
+    margin-left: 8px;
+    background: #ffffff;
+    border: #0B6BD7 1px solid;
+    color: #0B6BD7;
+    padding: 10px;
+}

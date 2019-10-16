@@ -33,18 +33,3 @@ header a {
     color: white;
 }
 
-
-/* update button */
-
-header a:first-child {
-    margin-right: 8px;
-    background: rgba(3, 102, 214);
-    color: white;
-}
-
-header a:last-child {
-    margin-left: 8px;
-    background: #ffffff;
-    border: #0B6BD7 1px solid;
-    color: #0B6BD7;
-}
