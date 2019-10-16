@@ -3,7 +3,7 @@
     background-color: #24292e;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
-    margin-right: 20px; 
+
 }
 
 .topbar .logo-topbar {
@@ -16,6 +16,7 @@
 
 .topbar a {
     color: white;
+    margin-right: 10px;
 }
 
 .burger-menu-container div {
@@ -29,7 +30,7 @@
 }
 
 .burger-menu-container {
-    padding: 0 20 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 /* HEADER */
@@ -186,11 +187,26 @@ header a {
 .pricing-testimonial-section .element .main-card-img{
     border-radius: 100%;
     width: 110px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }
 
 .pricing-testimonial-section .element p, .pricing-testimonial-section .element strong, .pricing-testimonial-section .element span{
     text-align: center;
+}
+
+.pricing-testimonial-section .element .element-info img{
+    height: 20px;
+}
+
+.pricing-testimonial-section .element .element-info{
+    padding-left: 50px;
+    margin: 5px 0;
+}
+
+.pricing-testimonial-section .element a{
+    width: 83px;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
 }
 
 
