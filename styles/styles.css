@@ -203,12 +203,34 @@ header a {
     margin: 5px 0;
 }
 
+.pricing-testimonial-section .element .element-info:first-of-type{
+    margin-top: 30px;
+}
+
 .pricing-testimonial-section .element a{
     width: 83px;
     margin: 10px auto 0 auto;
     border-radius: 5px;
 }
 
+/* NEWSLETTER SUBSCRIPTION */
+.newsletter-subscription{
+    padding: 0 90px;
+}
+
+.newsletter-subscription-updates strong{
+    font-size: 35px;
+}
+
+.newsletter-subscription-updates span{
+    font-size: 22px;
+}
+
+.newsletter-subscription form input[type="email"]{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+}
 
 
 /* BRANDS CAROUSEL */
