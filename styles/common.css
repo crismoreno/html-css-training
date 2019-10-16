@@ -34,6 +34,7 @@ h3 {
     text-align: center;
     max-width: 510px;
     margin: 0 auto;
+    padding-top: 55px;
 }
 
 h4 {
@@ -127,7 +128,6 @@ a:hover {
 }
 
 
-
 /* @media (min-width: 1200px){ */
 
 .container {
@@ -139,16 +139,14 @@ a:hover {
 
 /* } */
 
-
-.bluebuttons{
+.bluebuttons {
     margin-right: 8px;
     background: rgba(3, 102, 214);
     color: white;
     padding: 10px;
 }
 
-
-.whitebuttons { 
+.whitebuttons {
     margin-left: 8px;
     background: #ffffff;
     border: #0B6BD7 1px solid;
