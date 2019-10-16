@@ -273,6 +273,11 @@ header a {
     padding-left: 0;
 }
 
+.contact .left-side ul li img{
+    width: 20px;
+    margin-right: 5px;
+}
+
 .contact .right-side label {
     display: block;
     padding-bottom: 4px;
