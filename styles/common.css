@@ -125,6 +125,7 @@ a:hover {
 }
 
 
+
 /* @media (min-width: 1200px){ */
 
 .container {
@@ -135,3 +136,20 @@ a:hover {
 
 
 /* } */
+
+
+.bluebuttons{
+    margin-right: 8px;
+    background: rgba(3, 102, 214);
+    color: white;
+    padding: 10px;
+}
+
+
+.whitebuttons { 
+    margin-left: 8px;
+    background: #ffffff;
+    border: #0B6BD7 1px solid;
+    color: #0B6BD7;
+    padding: 10px;
+}
