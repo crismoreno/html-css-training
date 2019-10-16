@@ -7,7 +7,7 @@
 }
 
 .topbar .logo-topbar {
-    height: 50px;
+    height: 40px;
 }
 
 .topbar ul {
@@ -226,9 +226,17 @@ header a {
 }
 
 .newsletter-subscription form input[type="email"]{
-    width: 150px;
+    width: 240px;
     height: 30px;
     border-radius: 20px;
+    padding-left: 10px;
+    border: 1px solid #dee2e6;
+    margin-right: 10px;
+}
+.newsletter-subscription form input[type="submit"]{
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 80px;
 }
 
 /* BRANDS CAROUSEL */
@@ -257,7 +265,7 @@ header a {
 }
 
 .contact .left-side ul {
-    padding-left: 15px;
+    padding-left: 0;
 }
 
 /* UPPER FOOTER */
