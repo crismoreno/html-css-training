@@ -1,19 +1,7 @@
 /* FEATURES SECTION */
-.features-section{
-    background: #FAFBFC;
-}
-
 .features-section .main-image{
     width: 510px;
     margin: 0 auto;
-}
-
-.features-section>div{
-    padding-top: 90px;
-}
-
-.features-section .main-image{
-    padding-bottom: 90px;
 }
 
 .features-section>div h2, .features-section>div h4 {
@@ -31,15 +19,20 @@
 
 .features-container img{
     border-radius: 100%;
+    height: 100px;
+}
+.feature>div {
+    padding-left: 30px;
+}
+
+.features-container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
 
 /* PORTFOLIO SECTION */
-.portfolio-section{
-    padding: 90px 0;
-}
-
 .portfolio-section nav{
     text-align: center;
 }
@@ -57,23 +50,65 @@
 }
 
 
-
-
-
-
-
-/* FOOTER */
-footer .lower{
+/* PRICING & TESTIMONIAL */
+.pricing-testimonial-section{
     background: #FAFBFC;
+}
+
+.pricing-testimonial-section .element{
+    width: 33%;
+}
+
+.pricing-testimonial-section .element .main-card-img{
+    border-radius: 100%;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+
+/* BRANDS CAROUSEL */
+.brands-carousel{
+    padding: 90px 0;
+}
+.brands-carousel img{
+    height: 35px;
+    margin: 10px 20px;
+}
+
+
+/* CONTACT */
+.contact .side{
+    width: 50%;
+}
+
+
+
+
+
+/* UPPER FOOTER */
+footer .upper-footer li{
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+footer .upper-footer ul{
+    flex-wrap: wrap;
+    height: 170px;
+}
+
+/* LOWER FOOTER */
+footer .lower-footer{
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-footer .lower span{
+footer .lowlower-footer span{
     margin-top: 9px;
 }
 
-footer .lower .rrss svg{
+footer .lower-footer .rrss svg{
     color: #959da5;
     margin-right: 16px!important;
 }
