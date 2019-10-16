@@ -1,7 +1,5 @@
 .topbar {
     background-color: #24292e;
-    /* height: 25px;
-    width: 100%; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
     word-spacing: 20px;
@@ -19,14 +17,6 @@
     color: white;
 }
 
-
-/* .topbar div{
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-} */
-
 .burger-menu-container div {
     width: 22px;
     height: 2px;
@@ -41,6 +31,28 @@
     padding: 0 20 0 20px;
 }
 .portfolio-card img {
-  height: 230px;
-  padding: 10px;
+    height: 230px; 
+} 
+.right-side form{
+    display: block;
+    margin-left: auto;
+    padding-top: 40px;
+    margin-right: auto;
+    width: 50%;
+}
+.portfolio-card{
+    padding: 10px;
+}
+.newsletter-subscription{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.newsletter-subscription-updates{
+    width: 160px;
+}
+
+.newsletter-subscription form{
+    float: right;
 }
