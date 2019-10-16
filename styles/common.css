@@ -34,11 +34,8 @@ h3 {
     text-align: center;
     max-width: 510px;
     margin: 0 auto;
-<<<<<<< HEAD
     padding-top: 55px;
     padding-bottom: 20px;
-=======
->>>>>>> 4a7f4d92258d3bff1ca6aeac04996d14a87f07d1
 }
 
 h4 {
@@ -149,6 +146,8 @@ a:hover {
     background: rgba(3, 102, 214);
     color: white;
     padding: 10px;
+    border-radius: 80px;
+    border-bottom-left-radius: 100px;
 }
 
 .whitebuttons {
@@ -157,4 +156,6 @@ a:hover {
     border: #0B6BD7 1px solid;
     color: #0B6BD7;
     padding: 10px;
+    border-radius: 80px;
+    border-bottom-left-radius: 100px;
 }
