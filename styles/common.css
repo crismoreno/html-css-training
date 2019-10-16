@@ -151,9 +151,13 @@ a:hover {
     background: rgba(3, 102, 214);
     color: white;
     padding: 10px;
+<<<<<<< HEAD
     <<<<<<< HEAD border-radius: 80px;
     =======border-radius: 5px;
     >>>>>>>05261c8700c1bba129a36907de91892c18bc8fe7
+=======
+    border-radius: 5px;
+>>>>>>> a432ccc62b6840f1ccee7f6022d335cee4955e59
 }
 
 .whitebuttons {
@@ -162,7 +166,11 @@ a:hover {
     border: #0B6BD7 1px solid;
     color: #0B6BD7;
     padding: 10px;
+<<<<<<< HEAD
     <<<<<<< HEAD border-radius: 80px;
     =======border-radius: 5px;
     >>>>>>>05261c8700c1bba129a36907de91892c18bc8fe7
+=======
+    border-radius: 5px;
+>>>>>>> a432ccc62b6840f1ccee7f6022d335cee4955e59
 }
