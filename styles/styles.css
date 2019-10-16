@@ -1,9 +1,9 @@
 /* NAVBAR */
+
 .topbar {
     background-color: #24292e;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 80px;
-
 }
 
 .topbar .logo-topbar {
@@ -32,6 +32,7 @@
 .burger-menu-container {
     padding: 0 20px 0 20px;
 }
+
 
 /* HEADER */
 
@@ -71,63 +72,64 @@ header a {
 }
 
 
-
 /* FEATURES SECTION */
-.features-section .main-image{
+
+.features-section .main-image {
     width: 510px;
     margin: 0 auto;
 }
 
-.features-section>div h2, .features-section>div h4 {
+.features-section>div h2,
+.features-section>div h4 {
     margin-bottom: 30px;
 }
 
+
 /* FEATURES CONTAINER */
-.features-section .features-container{
+
+.features-section .features-container {
     flex-wrap: wrap;
 }
 
-.features-section .features-container .feature{
+.features-section .features-container .feature {
     width: 50%;
     padding-left: 30px;
 }
 
-.features-container .image-container{
+.features-container .image-container {
     height: 100px;
 }
 
-.features-container .image-container img{
+.features-container .image-container img {
     width: 100%;
     border-radius: 100%;
 }
-
 
 .feature .info-container {
     padding-left: 30px;
 }
 
-.features-container{
+.features-container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
 
-
 /* PORTFOLIO SECTION */
-.portfolio-section nav{
+
+.portfolio-section nav {
     text-align: center;
 }
 
-.portfolio-cards-container{
+.portfolio-cards-container {
     flex-wrap: wrap;
 }
 
-
-.portfolio-section .portfolio-navbar{
+.portfolio-section .portfolio-navbar {
     margin: 0 0 30px 0;
 }
 
-.portfolio-section .portfolio-navbar ul li a{
+.portfolio-section .portfolio-navbar ul li a {
     color: black;
     font-weight: 500;
     font-size: 15px;
@@ -135,70 +137,68 @@ header a {
     letter-spacing: 0.15em;
 }
 
-.portfolio-section .portfolio-navbar ul li a:hover{
+.portfolio-section .portfolio-navbar ul li a:hover {
     text-decoration: underline;
 }
-
 
 .portfolio-section .portfolio-navbar ul li:not(:first-child):not(:last-child) {
     margin: 0 10px;
 }
 
-
-.portfolio-section .portfolio-card{
+.portfolio-section .portfolio-card {
     width: 33%;
     padding: 10px;
 }
 
-.portfolio-section .portfolio-card{
+.portfolio-section .portfolio-card {
     width: 33%;
     padding: 10px;
 }
 
-
-.portfolio-section .portfolio-card img{
+.portfolio-section .portfolio-card img {
     height: 230px;
     border-radius: 5px;
 }
 
-.portfolio-section .portfolio-card strong{
+.portfolio-section .portfolio-card strong {
     margin: 10px 0;
 }
 
 
-
 /* PRICING & TESTIMONIAL */
-.pricing-testimonial-section{
+
+.pricing-testimonial-section {
     background: #FAFBFC;
 }
 
-.pricing-testimonial-section .element{
+.pricing-testimonial-section .element {
     width: 33%;
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     padding: 30px;
 }
 
-.pricing-testimonial-section .element:nth-child(2){
+.pricing-testimonial-section .element:nth-child(2) {
     margin: 0 30px;
 }
 
-
-.pricing-testimonial-section .element .main-card-img{
+.pricing-testimonial-section .element .main-card-img {
     border-radius: 100%;
     width: 110px;
     margin: 0 auto 30px auto;
 }
 
-.pricing-testimonial-section .element p, .pricing-testimonial-section .element strong, .pricing-testimonial-section .element span{
+.pricing-testimonial-section .element p,
+.pricing-testimonial-section .element strong,
+.pricing-testimonial-section .element span {
     text-align: center;
 }
 
-.pricing-testimonial-section .element .element-info img{
+.pricing-testimonial-section .element .element-info img {
     height: 20px;
 }
 
-.pricing-testimonial-section .element .element-info{
+.pricing-testimonial-section .element .element-info {
     padding-left: 50px;
     margin: 5px 0;
 }
@@ -232,47 +232,62 @@ header a {
     border-radius: 20px;
 }
 
-
 /* BRANDS CAROUSEL */
-.brands-carousel{
+
+.brands-carousel {
     padding: 90px 0;
 }
-.brands-carousel img{
+
+.brands-carousel img {
     height: 35px;
     margin: 10px 20px;
 }
 
 
 /* CONTACT */
-.contact .side{
+
+.contact .side {
     width: 50%;
 }
 
+.contact .left-side li {
+    font-size: 15px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    max-width: width 196px;
+    ;
+}
+
+.contact .left-side ul {
+    padding-left: 15px;
+}
 
 
 /* UPPER FOOTER */
-footer .upper-footer li{
+
+footer .upper-footer li {
     padding: 10px;
     width: 25%;
     text-align: center;
 }
 
-footer .upper-footer ul{
+footer .upper-footer ul {
     flex-wrap: wrap;
     height: 170px;
 }
 
+
 /* LOWER FOOTER */
-footer .lower-footer{
+
+footer .lower-footer {
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-footer .lowlower-footer span{
+footer .lowlower-footer span {
     margin-top: 9px;
 }
 
-footer .lower-footer .rrss svg{
+footer .lower-footer .rrss svg {
     color: #959da5;
     margin-right: 16px!important;
 }
