@@ -129,6 +129,10 @@ a:hover {
     padding-bottom: 90px !important;
 }
 
+*:disabled{
+    opacity: .5;
+}
+
 
 /* @media (min-width: 1200px){ */
 
