@@ -282,14 +282,12 @@ header a {
 
 .contact .right-side label {
     display: block;
-    padding-bottom: 9px;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    padding-bottom: 4px;
     font-size: 11px;
 }
 
 .contact .right-side input {
-    padding-bottom: 4px;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    /* padding-bottom: 4px; */
     font-size: 15px;
     border: 1px solid grey;
     width: 420px;
@@ -298,17 +296,21 @@ header a {
     border-radius: 5px;
 }
 
+.contact .right-side div {
+    margin-bottom: 10px;
+}
+
 .contact .right-side form input[type="textarea"] {
     height: 100px;
     padding-bottom: 65px;
     margin-bottom: 20px;
 }
 
-.contact .right-side form div input [type="submit"] {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+.contact .right-side form input[type="submit"] {
     max-height: 200px;
-    text-align: center;
-    font-size: 15px;
+    padding: unset !important;
+    margin: 0 !important;
+    /* height: unset !important; */
 }
 
 
